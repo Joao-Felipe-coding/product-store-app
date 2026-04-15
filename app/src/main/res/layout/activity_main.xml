@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F8F9FA"
     android:padding="16dp"
     tools:context=".MainActivity">
 
@@ -20,7 +21,7 @@
             android:textStyle="bold"
             android:gravity="center"
             android:layout_marginBottom="24dp"
-            android:textColor="@color/black" />
+            android:textColor="#1F2937" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -81,6 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cadastrar Produto"
+            android:textAllCaps="false"
             android:layout_marginBottom="8dp" />
 
         <Button
@@ -88,6 +90,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ver Lista de Produtos"
+            android:textAllCaps="false"
             style="@style/Widget.MaterialComponents.Button.TextButton" />
 
     </LinearLayout>
